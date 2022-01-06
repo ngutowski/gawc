@@ -1,0 +1,19 @@
+{
+  "nbCV": 10,
+  "norm": "true",
+  "mlMethod": "ELM",
+  "datasetRes": "myTest",
+  "injIndiv": "false",
+  "nbIndiv": 128,
+  "dimMode": "3D",
+  "acc": "true",
+  "nbRun": 1,
+  "trainRatio": 1,
+  "datasetName": "diabetes.xlsx",
+  "maxgen": 100,
+  "nbFeatRatio": 1,
+  "resFile": "diabetesRes.txt",
+  "exploreType": "range",
+  "range": "[80,80]",
+  "seed":-1
+}
