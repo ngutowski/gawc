@@ -48,7 +48,7 @@ def main(jsonfile="./compass/params/" + sys.argv[1]):
 
 
     ### Activate if needed for some methods to try
-    # warnings.filterwarnings("ignore", category=RuntimeWarning)
+    warnings.filterwarnings("ignore", category=RuntimeWarning)
 
     ### Loads experiment parameters loading
     CROSS_VALIDATIONS_NUMBER, NORMALIZATION, DATASET, ML_METHOD, INDIVIDUALS_NUMBER, INDIVIDUAL_INJECTION, DIMENSION_MODE, ACCU, NB_RUN, PATHRES, TRAIN_RATIO, DATASET_NAME, MAXGEN, NBFEAT_RATIO, RES_FILE, EXPL_TYPE, RANGE,SEED = parameters(
