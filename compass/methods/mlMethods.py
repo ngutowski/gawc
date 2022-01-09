@@ -5,6 +5,14 @@ from sklearn.svm import SVC
 
 
 def myModel(mlMethod):
+    """
+    This is the model method that allows to select the desired ML classifier (for binary classification in this version)
+    :param mlMethod: string
+    :return: ML model
+
+    """
+
+
     if mlMethod == "RLM":
         model = linear_model.LinearRegression()
 
