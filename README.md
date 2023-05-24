@@ -1,6 +1,6 @@
 # Genetic Algorithm with multi-objective Compass (*GAwC*)
 
-This repository aims at sharing the code of GAwC method submitted to the journal *Artificial Intelligence in Medicine (Elsevier)*. This code is for expertimental purpose only and is thus not suitable for production.
+This repository aims to share the code of the GAwC method published in the journal Artificial Intelligence in Medicine (Elsevier). Please note that this code is intended for experimental purposes only and is not suitable for production.
 
 ## The Algorithm
 
