@@ -1,6 +1,6 @@
 # Genetic Algorithm with multi-objective Compass (*GAwC*)
 
-This repository aims to share the code of the GAwC method published in the journal Artificial Intelligence in Medicine (Elsevier). Please note that this code is intended for experimental purposes only and is not suitable for production.
+This repository aims to share the code of the GAwC method published in the journal *Artificial Intelligence in Medicine (Elsevier)*. Please note that this code is intended for experimental purposes only and is not suitable for production.
 
 ## The Algorithm
 
@@ -94,4 +94,4 @@ python3 execute.py paramsTestDiabetes.json
 This code can be run in a classical computer. Nevertheless, we advise using a minimum of Intel(R) Core(TM) i7 CPU. Note that for all our experiments of our research, evaluation was performed on a high performance computing cluster of 27 nodes (composed of 700 logical CPU, 2 nvidia GPU tesla k20m, 1 nvidia P100 GPU, 120 TB of beegfs scratch storage). Using such cluster allows to paralellize runs and compute average after the final reduce step ends. Hence, using our cluster divided experiments time by 30. If interested by using a cluster, we recommend using *.slurm* file with *sbatch* command. 
 
 ## Additional informations  
-More informations about related work, *GAwC* method, parameterization, results, discussion and perspectives are addressed in a journal paper. *GAwC* has been published to the journal *Artificial Intelligence in Medicine (Elsevier)* https://www.sciencedirect.com/science/article/pii/S0933365722000422 
+More information about related work, *GAwC* method, parameterization, results, discussion and perspectives are addressed in a journal paper. *GAwC* has been published in the journal *Artificial Intelligence in Medicine (Elsevier)* https://www.sciencedirect.com/science/article/pii/S0933365722000422 
